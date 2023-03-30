@@ -1,0 +1,112 @@
+/* IMPORTACIÓN DE FONTS */
+@import url(https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poiret+One&display=swap);
+
+
+/* SELECTOR UNIVERSAL Y RESETEO */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #551a88;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-menu-suave);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+:root{
+    --color-menu-fondo:#C20073;
+    --color-letra-menu: white ;
+    --backgroundPage: #F3D79F ;
+    --color-menu-suave:#feb8e2;
+
+}
+
+/* MENU/ NAVBAR */
+
+.navbar{
+    border-bottom: 5px solid var(--color-menu-fondo);
+    
+}
+
+.navbar-brand{
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    color: var(--color-menu-fondo);
+    font-weight: bolder;
+}
+
+.nav-item>a{
+    margin: 10px;
+    color: var(--color-menu-fondo);
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+}
+
+.nav-item>a:hover{
+    background-color: #7e6b8e;
+    color: var(--color-letra-menu);
+    border-radius: 22px;
+    transform: scale(1.1);
+}
+
+
+/* LOGO */
+
+img{
+    width: 100px;
+}
+
+/* COMPONENTE CARRITO */
+
+.carrito{
+    background-color: var(--color-menu-suave);
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+    padding: 12px;
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.carrito:hover{
+    background-color: #7e6b8e;
+    border-radius: 22px;
+    transform: scale(1.1);
+}
+
+.carrito>p{
+    margin-right: 20px;
+    padding-left: 15px;
+    
+}
+
+#carro{
+    width: 40px;
+}
+
+
+/* ITEMSLISTCONTAINER */
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones>button:hover{
+    background-color: #551a88!important;
+    color: var(--color-letra-menu);
+
+}
