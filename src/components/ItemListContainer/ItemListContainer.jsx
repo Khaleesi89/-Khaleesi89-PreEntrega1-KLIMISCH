@@ -1,14 +1,30 @@
-export const ItemListContainer = ({ greeting }) => {
-    return (
-        <div className="listaCarrito">
-            <h5 className="modal-title text-center m-5 ">{greeting}</h5>
-            <p className="text-center">El carrito está vacío</p>  
-            <div className="botones align-items-center">
-                <button type="button" className="btn btn-secondary bg-danger m-2 " data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" className="btn btn-primary bg-danger m-2">Finalizar Compra</button>
-            </div>    
-                
-        </div>
+import { useState,useEffect } from "react";
+import { ItemList } from "../ItemList/ItemList";
+
+
+export const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+
+    setTimeout(() => {
         
+
+
+
+      }, "2000");
+    useEffect(() =>{
+        setTimeout(()=>{
+            fetch('./json/productos.json')
+            .then(response => response.json())
+            .then(productos =>{
+                setProductos(productos)
+               
+            })
+        },2000)
+        
+    },[])
+    return (
+        <div className='row'>
+            <ItemList productos={productos}/>
+        </div>  
     );
 }

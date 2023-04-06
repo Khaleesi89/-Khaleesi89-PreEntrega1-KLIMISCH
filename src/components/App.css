@@ -110,3 +110,33 @@ img{
     color: var(--color-letra-menu);
 
 }
+
+/* CONTENEDOR DE PRODUCTOS */
+
+.titulo>p{
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+}
+
+.card{
+    margin: 30px;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #551a88;
+}
+
+.btn{
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: #C20073;
+    color: var(--color-menu-suave);
+}

@@ -6,7 +6,11 @@ export const App = () => {
   return (
     <div>
       <Navbar />
-      <ItemListContainer greeting={"Productos"} />
+      <div className='titulo'>
+        <p><img src="../img/icons8-boleto.gif" alt="" srcset="" /> Conciertos</p>
+      </div>
+      
+      <ItemListContainer />
     </div>
   )
 }

@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "img": "./productos/arianaGrande.jpg",
+        "artista": "Ariana Grande",
+        "tour": "Dangerous Woman Tour",
+        "auspicio": "Federatti Productions",
+        "fecha": "22/04/2023",
+        "lugar": "Estadio de Vélez"
+
+        
+    },
+    {
+        "id": 2,
+        "img": "./productos/coldplay.jpg",
+        "artista": "Coldplay",
+        "tour": "Live Concert",
+        "auspicio": "Legendary Productions",
+        "fecha": "22/05/2023",
+        "lugar": "Estadio de River"
+        
+    },
+    {
+        "id": 3,
+        "img": "./productos/cRivera.jpg",
+        "artista": "Carlos Rivera",
+        "tour": "Un Tour a todas partes",
+        "auspicio": "Rompecorazones Studios",
+        "fecha": "02/06/2023",
+        "lugar": "Teatro Gran Rex"
+        
+    },
+    {
+        "id": 4,
+        "img": "./productos/duaLipa.webp",
+        "artista": "Dua Lipa",
+        "tour": "Future Nostalgia",
+        "auspicio": "TipingTap Studios",
+        "fecha": "30/10/2023",
+        "lugar": "Campo de Polo"
+        
+    },
+    {
+        "id": 5,
+        "img": "./productos/humble.jpg",
+        "artista": "Humble Pie",
+        "tour": "The sunday Concert",
+        "auspicio": "Abbey Road London Productions",
+        "fecha": "03/10/2023",
+        "lugar": "Estadio de Boca"
+        
+    },
+    {
+        "id": 6,
+        "img": "./productos/imagineDragons.jpg",
+        "artista": "Imagine Dragons",
+        "tour": "Save my Stone Heart",
+        "auspicio": "Pomeranian Producciones",
+        "fecha": "20/01/2024",
+        "lugar": "Teatro Opera"
+        
+    },
+    {
+        "id": 7,
+        "img": "./productos/rolling.jpg",
+        "artista": "Rolling Stones",
+        "tour": "Sixty",
+        "auspicio": "Federco Producciones",
+        "fecha": "20/03/2024",
+        "lugar": "Estadio de River"
+        
+    },
+    {
+        "id": 8,
+        "img": "./productos/shakira.jpg",
+        "artista": "Shakira",
+        "tour": "El Dorado",
+        "auspicio": "TipingTap Studios",
+        "fecha": "04/05/2023",
+        "lugar": "Estadio de Vélez"
+        
+    },
+    {
+        "id": 9,
+        "img": "./productos/theWeeknd.jpg",
+        "artista": "The Weeknd",
+        "tour": "After Hours Til Dawn",
+        "auspicio": "HowAreYou Studios",
+        "fecha": "30/10/2023",
+        "lugar": "Estadio de River"
+        
+    },
+    {
+        "id": 10,
+        "img": "./productos/smokie.jpg",
+        "artista": "Smokie",
+        "tour": "After",
+        "auspicio": "LiliBath Studios",
+        "fecha": "10/06/2023",
+        "lugar": "GLEBA"
+        
+    }
+]
+   
